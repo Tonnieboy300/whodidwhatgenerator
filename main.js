@@ -1,8 +1,8 @@
 let noun;
 //these constants should equal the number of words in their respective file.
 //this should be the last key + 1
-const nounAmount = 3
-const verbAmount = 3
+const nounAmount = 10
+const verbAmount = 10
 
 function dataGet(fileName){
     var data = new XMLHttpRequest();
