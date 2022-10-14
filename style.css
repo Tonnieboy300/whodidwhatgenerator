@@ -1,12 +1,48 @@
 html{
     background-color:#232020;
 }
-.text{
-    color:#E0E1DD;
-}
 
 h1{
     text-align:center;
     font-family: 'Nunito', sans-serif;
+    color:#E0E1DD;
 }
 
+p{
+    text-align:center;
+    font-family: 'Nunito', sans-serif;
+    color:#E0E1DD;
+    font-size: 1.25rem;
+}
+
+table{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    background-color:#332F2F;
+    border-radius:25px;
+}
+
+td{
+    background-color:#433E3E;
+    border-radius:10px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+  }
+
+footer{
+    position:fixed;
+    bottom:0px;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+a{
+    text-decoration-color: #BA3B46;
+}

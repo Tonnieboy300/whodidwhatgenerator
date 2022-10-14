@@ -37,10 +37,19 @@ function verbGen() {
     return verbJSON[verbSelectionString];
 }
 
+function replaceText(objectId, text) {
+    document.getElementById(objectId).innerHTML = text;
+}
+
 const dataNouns = dataGet("./nouns.json");
 const dataVerbs = dataGet("./verbs.json");
 
 var noun1 = nounGen();
 var verb = verbGen();
 var noun2 = nounGen();
-console.log(noun1 + " "+ verb + " " + noun2);
+
+replaceText("noun1",noun1);
+replaceText("verb",verb);
+replaceText("noun2",noun2);
+
+//console.log(noun1 + " "+ verb + " " + noun2);
