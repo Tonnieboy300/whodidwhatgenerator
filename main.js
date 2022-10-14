@@ -11,6 +11,9 @@ function dataGet(fileName){
     return data;
 }
 
+const dataNouns = dataGet("./nouns.json");
+const dataVerbs = dataGet("./verbs.json");
+
 //chooses a random word from the noun file
 function nounGen(){
     //select word
@@ -37,19 +40,26 @@ function verbGen() {
     return verbJSON[verbSelectionString];
 }
 
+//changes the text of a specified element
 function replaceText(objectId, text) {
     document.getElementById(objectId).innerHTML = text;
 }
 
-const dataNouns = dataGet("./nouns.json");
-const dataVerbs = dataGet("./verbs.json");
+//generates words then puts them in the word boxes
+function insertWords(){
+    var noun1 = nounGen();
+    var verb = verbGen();
+    var noun2 = nounGen();
+    
+    replaceText("noun1",noun1);
+    replaceText("verb",verb);
+    replaceText("noun2",noun2);
+}
 
-var noun1 = nounGen();
-var verb = verbGen();
-var noun2 = nounGen();
+//run insertWords() when button is clicked
+document.getElementById("regenButton").addEventListener("click",insertWords)
 
-replaceText("noun1",noun1);
-replaceText("verb",verb);
-replaceText("noun2",noun2);
+insertWords();
+
 
 //console.log(noun1 + " "+ verb + " " + noun2);
