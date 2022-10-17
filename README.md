@@ -21,7 +21,7 @@ Catch any bugs? Be sure to create an [issue](https://github.com/Tonnieboy300/who
 Please create an [issue](https://github.com/Tonnieboy300/whodidwhatgenerator/issues) *before* working on any new features or bugs.  
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Contributors ✨
@@ -35,6 +35,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tbody>
     <tr>
       <td align="center"><a href="https://github.com/Tonnieboy300"><img src="https://avatars.githubusercontent.com/u/112512720?v=4?s=100" width="100px;" alt="Tonnieboy300"/><br /><sub><b>Tonnieboy300</b></sub></a><br /><a href="#ideas-Tonnieboy300" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/Tonnieboy300/whodidwhatgenerator/pulls?q=is%3Apr+reviewed-by%3ATonnieboy300" title="Reviewed Pull Requests">👀</a> <a href="#maintenance-Tonnieboy300" title="Maintenance">🚧</a></td>
+      <td align="center"><a href="https://github.com/Vmhatre04"><img src="https://avatars.githubusercontent.com/u/88046301?v=4?s=100" width="100px;" alt="Vmhatre04"/><br /><sub><b>Vmhatre04</b></sub></a><br /><a href="https://github.com/Tonnieboy300/whodidwhatgenerator/commits?author=Vmhatre04" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
