@@ -21,6 +21,7 @@ table{
     padding: 10px;
     background-color:#332F2F;
     border-radius:25px;
+    table-layout: fixed;
 }
 
 td{
