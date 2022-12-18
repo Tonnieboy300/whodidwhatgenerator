@@ -4,6 +4,23 @@ let noun;
 const nounAmount = 10
 const verbAmount = 10
 
+//adjusts padding on window resize
+function preventOverflow(){
+    console.log(window.innerWidth)
+    if(window.innerWidth < 780){
+        document.getElementById("generationTable").style = "width: 100%";
+        document.getElementById("regenButton").style="width:100%;"
+    } else{
+        document.getElementById("generationTable").style = "width: 50%";
+        document.getElementById("regenButton").style="width:25%;"
+    }
+    if(window.innerHeight < 700){
+        document.getElementById("footerTitle").style = "display:none;"
+    }else{
+        document.getElementById("footerTitle").style = ""
+    }
+}
+
 function dataGet(fileName){
     var data = new XMLHttpRequest();
     data.open("GET",fileName,false);
@@ -59,7 +76,11 @@ function insertWords(){
 //run insertWords() when button is clicked
 document.getElementById("regenButton").addEventListener("click",insertWords)
 
+//get words for initial load
 insertWords();
 
+//change box size when window is thin
+preventOverflow()
+window.addEventListener("resize", preventOverflow);
 
 //console.log(noun1 + " "+ verb + " " + noun2);
