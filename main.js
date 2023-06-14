@@ -1,12 +1,11 @@
 let noun;
 //these constants should equal the number of words in their respective file.
 //this should be the last key + 1
-const nounAmount = 10
-const verbAmount = 10
+const nounAmount = 20
+const verbAmount = 20
 
 //adjusts padding on window resize
 function preventOverflow(){
-    console.log(window.innerWidth)
     if(window.innerWidth < 780){
         document.getElementById("generationTable").style = "width: 100%";
         document.getElementById("regenButton").style="width:100%;"
